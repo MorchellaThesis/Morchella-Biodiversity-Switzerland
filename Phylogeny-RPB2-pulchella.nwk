@@ -1,0 +1,139 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=37;
+	taxlabels
+	'GU551105.1_Morchella_rufobrunnea_strain_M14_RNA_polymerase_II__RPB2__gene_parti'
+	'GU551487.1_Morchella_septentrionalis_strain_M9_RNA_polymerase_II__RPB2__gene_pa'
+	'GU551495.1_Morchella_sp._Mel-23_strain_M495_RNA_polymerase_II__RPB2__gene_parti'
+	'GU551506.1_Morchella_sp._Mel-23_strain_M209_RNA_polymerase_II__RPB2__gene_parti'
+	'GU551514.1_Morchella_sp._Mel-23_strain_M542_RNA_polymerase_II__RPB2__gene_parti'
+	'GU551703.1_Morchella_septentrionalis_strain_M9_RNA_polymerase_II__RPB2__gene_pa'
+	'GU551709.1_Morchella_sp._Mel-23_strain_M542_RNA_polymerase_II__RPB2__gene_parti'
+	'HM056469.1_Morchella_sp._Mel-31_strain_HT_106_DNA-dependent_RNA_polymerase_II__'
+	'HM056501.1_Morchella_sp._Mel-31_strain_HT_202_DNA-dependent_RNA_polymerase_II__'
+	'HM056502.1_Morchella_sp._Mel-31_strain_HT_203_DNA-dependent_RNA_polymerase_II__'
+	'HM056504.1_Morchella_sp._Mel-31_strain_HT_212_DNA-dependent_RNA_polymerase_II__'
+	'JN085047.1_Morchella_septentrionalis_strain_HT9_DNA-dependent_RNA_polymerase_II'
+	'JN085228.1_Morchella_sp._Mel-31_strain_HT354_DNA-dependent_RNA_polymerase_II__R'
+	'JN085229.1_Morchella_sp._Mel-31_strain_HT396_DNA-dependent_RNA_polymerase_II__R'
+	'JN085232.1_Morchella_sp._Mel-32_strain_HT428_DNA-dependent_RNA_polymerase_II__R'
+	'JN085240.1_Morchella_sp._Mel-31_strain_HT472_DNA-dependent_RNA_polymerase_II__R'
+	'JN085241.1_Morchella_sp._Mel-32_strain_HT477_DNA-dependent_RNA_polymerase_II__R'
+	'JN085243.1_Morchella_sp._Mel-32_strain_HT479_DNA-dependent_RNA_polymerase_II__R'
+	'JN085256.1_Morchella_sp._Mel-32_strain_HT106_DNA-dependent_RNA_polymerase_II__R'
+	'JN085268.1_Morchella_sp._Mel-23_strain_M495_DNA-dependent_RNA_polymerase_II__RP'
+	'JN085275.1_Morchella_sp._Mel-23_strain_HT542_DNA-dependent_RNA_polymerase_II__R'
+	'JQ670126.1_Morchella_septentrionalis_strain_Kuo18_RNA_polymerase_II_subunit_2__'
+	'JX171397.1_Morchella_septentrionalis_strain_M789_RNA_polymerase_II__RPB2__gene'
+	'JX171398.1_Morchella_septentrionalis_strain_M793_RNA_polymerase_II__RPB2__gene'
+	'JX171399.1_Morchella_septentrionalis_strain_M801_RNA_polymerase_II__RPB2__gene'
+	'JX171416.1_Morchella_septentrionalis_strain_M1329_RNA_polymerase_II__RPB2__gene'
+	'JX171420.1_Morchella_septentrionalis_strain_M1335_RNA_polymerase_II__RPB2__gene'
+	'JX171441.1_Morchella_septentrionalis_RNA_polymerase_II__RPB2__gene_partial_cds'
+	'KM588030.1_Morchella_septentrionalis_voucher_LIP_PhC121_DNA-dependent_RNA_polym'
+	'KM588031.1_Morchella_septentrionalis_voucher_LIP_PhC123_DNA-dependent_RNA_polym'
+	'KM588039.1_Morchella_pulchella_voucher_LIP_PhC56_DNA-dependent_RNA_polymerase_I'
+	M21-20
+	M700_REF
+	'MF400856.1_Morchella_pulchella_isolate_BS1a_RNA_polymerase_II_subunit_2__RPB2_'
+	'MK965500.1_Morchella_pulchella_strain_M192_RNA_polymerase_II_subunit_2__RPB2__g'
+	RPB2_M21-90
+	RPB2_M21-91
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('GU551105.1_Morchella_rufobrunnea_strain_M14_RNA_polymerase_II__RPB2__gene_parti':0.157653,((((('HM056469.1_Morchella_sp._Mel-31_strain_HT_106_DNA-dependent_RNA_polymerase_II__':2.0E-6,'JN085256.1_Morchella_sp._Mel-32_strain_HT106_DNA-dependent_RNA_polymerase_II__R':2.0E-6)[&label=93]:0.001183,(M21-20:2.0E-6,(RPB2_M21-90:2.0E-6,RPB2_M21-91:2.0E-6)[&label=86]:2.0E-6)[&label=87]:0.00237)[&label=29]:2.0E-6,((('JN085229.1_Morchella_sp._Mel-31_strain_HT396_DNA-dependent_RNA_polymerase_II__R':0.0,'GU551709.1_Morchella_sp._Mel-23_strain_M542_RNA_polymerase_II__RPB2__gene_parti':0.0):0.0,'JN085275.1_Morchella_sp._Mel-23_strain_HT542_DNA-dependent_RNA_polymerase_II__R':0.0):2.0E-6,'JN085268.1_Morchella_sp._Mel-23_strain_M495_DNA-dependent_RNA_polymerase_II__RP':2.0E-6)[&label=62]:2.0E-6)[&label=27]:2.0E-6,((('HM056501.1_Morchella_sp._Mel-31_strain_HT_202_DNA-dependent_RNA_polymerase_II__':2.0E-6,'HM056502.1_Morchella_sp._Mel-31_strain_HT_203_DNA-dependent_RNA_polymerase_II__':2.0E-6)[&label=97]:0.00237,(((('HM056504.1_Morchella_sp._Mel-31_strain_HT_212_DNA-dependent_RNA_polymerase_II__':0.0,'JN085232.1_Morchella_sp._Mel-32_strain_HT428_DNA-dependent_RNA_polymerase_II__R':0.0):0.0,'JN085243.1_Morchella_sp._Mel-32_strain_HT479_DNA-dependent_RNA_polymerase_II__R':0.0):2.0E-6,'JN085228.1_Morchella_sp._Mel-31_strain_HT354_DNA-dependent_RNA_polymerase_II__R':2.0E-6)[&label=66]:2.0E-6,(('JN085240.1_Morchella_sp._Mel-31_strain_HT472_DNA-dependent_RNA_polymerase_II__R':2.0E-6,'JN085241.1_Morchella_sp._Mel-32_strain_HT477_DNA-dependent_RNA_polymerase_II__R':2.0E-6)[&label=95]:0.001183,'MK965500.1_Morchella_pulchella_strain_M192_RNA_polymerase_II_subunit_2__RPB2__g':0.001183)[&label=37]:2.0E-6)[&label=47]:2.0E-6)[&label=69]:0.001181,'MF400856.1_Morchella_pulchella_isolate_BS1a_RNA_polymerase_II_subunit_2__RPB2_':2.0E-6)[&label=44]:3.0E-6)[&label=54]:0.001183,((((('KM588039.1_Morchella_pulchella_voucher_LIP_PhC56_DNA-dependent_RNA_polymerase_I':2.0E-6,('GU551487.1_Morchella_septentrionalis_strain_M9_RNA_polymerase_II__RPB2__gene_pa':0.001185,(('GU551495.1_Morchella_sp._Mel-23_strain_M495_RNA_polymerase_II__RPB2__gene_parti':2.0E-6,'GU551514.1_Morchella_sp._Mel-23_strain_M542_RNA_polymerase_II__RPB2__gene_parti':2.0E-6)[&label=82]:2.0E-6,'GU551506.1_Morchella_sp._Mel-23_strain_M209_RNA_polymerase_II__RPB2__gene_parti':2.0E-6)[&label=81]:2.43E-4)[&label=100]:1.259017)[&label=67]:0.003172,'KM588030.1_Morchella_septentrionalis_voucher_LIP_PhC121_DNA-dependent_RNA_polym':2.0E-6)[&label=28]:2.0E-6,'KM588031.1_Morchella_septentrionalis_voucher_LIP_PhC123_DNA-dependent_RNA_polym':2.0E-6)[&label=68]:0.00959,('JN085047.1_Morchella_septentrionalis_strain_HT9_DNA-dependent_RNA_polymerase_II':2.0E-6,'GU551703.1_Morchella_septentrionalis_strain_M9_RNA_polymerase_II__RPB2__gene_pa':2.0E-6)[&label=95]:0.001183)[&label=42]:2.0E-6,(((((('JQ670126.1_Morchella_septentrionalis_strain_Kuo18_RNA_polymerase_II_subunit_2__':0.0,'JX171420.1_Morchella_septentrionalis_strain_M1335_RNA_polymerase_II__RPB2__gene':0.0):0.0,'JX171398.1_Morchella_septentrionalis_strain_M793_RNA_polymerase_II__RPB2__gene':0.0):0.0,'JX171416.1_Morchella_septentrionalis_strain_M1329_RNA_polymerase_II__RPB2__gene':0.0):0.0,'JX171441.1_Morchella_septentrionalis_RNA_polymerase_II__RPB2__gene_partial_cds':0.0):0.0,'JX171399.1_Morchella_septentrionalis_strain_M801_RNA_polymerase_II__RPB2__gene':0.0):2.0E-6,'JX171397.1_Morchella_septentrionalis_strain_M789_RNA_polymerase_II__RPB2__gene':2.0E-6)[&label=69]:2.0E-6)[&label=42]:2.0E-6)[&label=95]:0.045403,M700_REF:0.010744);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

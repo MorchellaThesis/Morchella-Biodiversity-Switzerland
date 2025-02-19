@@ -1,0 +1,165 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=63;
+	taxlabels
+	'M._esculenta_HKAS56676_REF'
+	'M._esculenta_HKAS59168_REF'
+	'M._esculenta_M19_REF'
+	'M._esculenta_strain_M19-15_SWISS'
+	'M._esculenta_strain_M19-16_SWISS'
+	'M._esculenta_strain_M19-17_SWISS'
+	'M._esculenta_strain_M19-18_SWISS'
+	'M._esculenta_strain_M19-20_SWISS'
+	'M._esculenta_strain_M19-34_SWISS'
+	'M._esculenta_strain_M19-36_SWISS'
+	'M._esculenta_strain_M19-38_SWISS'
+	'M._esculenta_strain_M19-40_SWISS'
+	'M._esculenta_strain_M21-26_SWISS'
+	'M._esculenta_strain_M21-27_SWISS'
+	'M._esculenta_strain_M21-32_SWISS'
+	'M._esculenta_strain_M21-36_SWISS'
+	'M._esculenta_strain_M21-42_SWISS'
+	'M._esculenta_strain_M21-43_SWISS'
+	'M._esculenta_strain_M21-46_SWISS'
+	'M._esculenta_strain_M21-54_SWISS'
+	'M._esculenta_strain_M21-55_SWISS'
+	'M._esculenta_strain_M21-58_SWISS'
+	'M._esculenta_strain_M21-59_SWISS'
+	'M._esculenta_strain_M21-61_SWISS'
+	'M._esculenta_strain_M21-62_SWISS'
+	'M._esculenta_strain_M21-64_SWISS'
+	'M._esculenta_strain_M21-67_SWISS'
+	'M._esculenta_strain_M21-68_SWISS'
+	'M._esculenta_strain_M21-69_SWISS'
+	'M._esculenta_strain_M21-70_SWISS'
+	'M._esculenta_strain_M21-71_SWISS'
+	'M._esculenta_strain_M21-72_SWISS'
+	'M._esculenta_strain_M21-74_SWISS'
+	'M._esculenta_strain_M21-75_SWISS'
+	'M._esculenta_strain_M21-76_SWISS'
+	'M._esculenta_strain_M21-77_SWISS'
+	'M._esculenta_strain_M21-78_SWISS'
+	'M._esculenta_strain_M21-79_SWISS'
+	'M._fluvialis_HKAS59128_REF'
+	'M._fluvialis_M49_REF'
+	'M._fluvialis_YAASM86_REF'
+	'M._galilaea_YAASMDL2_REF'
+	'M._gracilis_9483-TJB_TYPE'
+	'M._gracilis_M330_REF'
+	'M._palazonii_PhC149_TYPE'
+	'M._peruviana_CIPHAM004_TYPE'
+	'M._rufobrunnea_M14_REF'
+	'M._ulmaria_M70_REF'
+	'M._vulgaris_HT337_REF'
+	'Morchella_sp._Mes-10_HKAS59141_REF'
+	'Morchella_sp._Mes-12_M50_REF'
+	'Morchella_sp._Mes-13_M320_REF'
+	'Morchella_sp._Mes-15_YAASMNHSQ_REF'
+	'Morchella_sp._Mes-19_YAASM54_REF'
+	'Morchella_sp._Mes-20_YAASMCB1_REF'
+	'Morchella_sp._Mes-21_HKAS55920_REF'
+	'Morchella_sp._Mes-22_YAASM78_REF'
+	'Morchella_sp._Mes-23_HKAS56571_REF'
+	'Morchella_sp._Mes-25_YAASM15_REF'
+	'Morchella_sp._Mes-26_HKAS55913_REF'
+	'Morchella_sp._Mes-27_HKAS55897_REF'
+	'Morchella_sp._Mes-6_HMJAU5334_REF'
+	'Morchella_sp._Mes-X_HKAS56660_REF'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('M._esculenta_strain_M19-15_SWISS':3.41E-4,'M._esculenta_strain_M19-16_SWISS':2.0E-6,((('M._esculenta_strain_M19-17_SWISS':2.0E-6,((('M._esculenta_strain_M19-20_SWISS':6.81E-4,(('M._esculenta_strain_M21-32_SWISS':0.002395,'M._esculenta_strain_M21-72_SWISS':6.82E-4)[&label=51]:2.0E-6,('M._esculenta_strain_M21-43_SWISS':2.0E-6,'M._esculenta_strain_M21-64_SWISS':2.0E-6)[&label=61]:2.0E-6)[&label=40]:2.0E-6)[&label=71]:3.4E-4,'M._esculenta_strain_M21-42_SWISS':0.002397)[&label=19]:2.0E-6,(('M._esculenta_strain_M19-36_SWISS':0.001366,'M._esculenta_strain_M19-38_SWISS':2.0E-6)[&label=68]:3.4E-4,((((('M._esculenta_strain_M21-26_SWISS':3.4E-4,'M._esculenta_strain_M21-27_SWISS':2.0E-6)[&label=98]:3.4E-4,('M._esculenta_strain_M21-61_SWISS':3.4E-4,'M._esculenta_strain_M21-62_SWISS':2.0E-6)[&label=98]:3.4E-4)[&label=26]:2.0E-6,('M._esculenta_strain_M21-36_SWISS':2.0E-6,'M._esculenta_strain_M21-54_SWISS':2.0E-6)[&label=21]:2.0E-6)[&label=15]:2.0E-6,((('M._esculenta_strain_M21-74_SWISS':0.0,'M._esculenta_strain_M21-78_SWISS':0.0):2.0E-6,'M._esculenta_strain_M21-77_SWISS':2.0E-6)[&label=75]:2.0E-6,('M._esculenta_strain_M21-75_SWISS':3.4E-4,'M._esculenta_strain_M21-76_SWISS':3.4E-4)[&label=74]:2.0E-6)[&label=98]:3.4E-4)[&label=44]:2.0E-6,'M._esculenta_strain_M21-79_SWISS':0.001022)[&label=83]:3.4E-4)[&label=35]:2.0E-6)[&label=11]:2.0E-6)[&label=6]:2.0E-6,((('M._esculenta_strain_M19-18_SWISS':2.0E-6,'M._esculenta_strain_M19-34_SWISS':3.4E-4)[&label=98]:3.4E-4,(('M._esculenta_strain_M19-40_SWISS':6.86E-4,'M._esculenta_strain_M21-55_SWISS':3.41E-4)[&label=90]:3.4E-4,((((((('M._rufobrunnea_M14_REF':0.404597,((((('M._gracilis_9483-TJB_TYPE':3.97E-4,'M._gracilis_M330_REF':3.14E-4)[&label=99]:0.001426,'M._peruviana_CIPHAM004_TYPE':0.002947)[&label=98]:0.001782,'M._palazonii_PhC149_TYPE':0.002496)[&label=62]:4.01E-4,(('M._galilaea_YAASMDL2_REF':0.005384,('Morchella_sp._Mes-13_M320_REF':0.007432,'Morchella_sp._Mes-19_YAASM54_REF':0.008246)[&label=96]:0.002726)[&label=45]:8.18E-4,'Morchella_sp._Mes-15_YAASMNHSQ_REF':0.004316)[&label=34]:4.97E-4)[&label=52]:0.018651,(('Morchella_sp._Mes-12_M50_REF':3.57E-4,'Morchella_sp._Mes-22_YAASM78_REF':2.0E-6)[&label=98]:0.001478,'Morchella_sp._Mes-23_HKAS56571_REF':0.003492)[&label=100]:0.014123)[&label=49]:0.001395)[&label=42]:0.005653,'Morchella_sp._Mes-27_HKAS55897_REF':0.026179)[&label=68]:0.002436,('M._vulgaris_HT337_REF':0.012292,(('Morchella_sp._Mes-6_HMJAU5334_REF':0.003386,'Morchella_sp._Mes-X_HKAS56660_REF':0.001097)[&label=99]:0.002516,'Morchella_sp._Mes-21_HKAS55920_REF':0.002515)[&label=98]:0.00463)[&label=100]:0.04266)[&label=48]:0.002506,((('M._ulmaria_M70_REF':0.007991,'Morchella_sp._Mes-25_YAASM15_REF':0.013314)[&label=100]:0.00976,'Morchella_sp._Mes-10_HKAS59141_REF':0.013937)[&label=98]:0.014637,'Morchella_sp._Mes-26_HKAS55913_REF':0.034693)[&label=83]:0.006102)[&label=100]:0.028097,(('M._fluvialis_YAASM86_REF':0.001004,('M._fluvialis_HKAS59128_REF':2.0E-6,'M._fluvialis_M49_REF':2.0E-6)[&label=100]:0.00247)[&label=93]:0.001126,'Morchella_sp._Mes-20_YAASMCB1_REF':0.001188)[&label=99]:0.003201)[&label=98]:0.002518,('M._esculenta_HKAS56676_REF':6.17E-4,'M._esculenta_HKAS59168_REF':7.54E-4)[&label=94]:0.001157)[&label=93]:6.31E-4,'M._esculenta_M19_REF':3.42E-4)[&label=68]:3.43E-4)[&label=60]:2.0E-6)[&label=29]:2.0E-6,((((('M._esculenta_strain_M21-58_SWISS':0.0,'M._esculenta_strain_M21-70_SWISS':0.0):0.0,'M._esculenta_strain_M21-67_SWISS':0.0):0.0,'M._esculenta_strain_M21-68_SWISS':0.0):0.0,'M._esculenta_strain_M21-69_SWISS':0.0):2.0E-6,'M._esculenta_strain_M21-59_SWISS':2.0E-6)[&label=10]:2.0E-6)[&label=4]:2.0E-6)[&label=13]:2.0E-6,('M._esculenta_strain_M21-46_SWISS':3.4E-4,'M._esculenta_strain_M21-71_SWISS':3.4E-4)[&label=19]:2.0E-6)[&label=64]:2.0E-6);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

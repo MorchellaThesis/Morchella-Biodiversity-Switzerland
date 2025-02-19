@@ -1,0 +1,164 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=62;
+	taxlabels
+	'M._esculenta_HKAS56676_REF'
+	'M._esculenta_HKAS59168_REF'
+	'M._esculenta_M19_REF'
+	'M._fluvialis_HKAS59128_REF'
+	'M._fluvialis_M49_REF'
+	'M._fluvialis_YAASM86_REF'
+	'M._galilaea_YAASMDL2_REF'
+	'M._gracilis_9483-TJB_TYPE'
+	'M._gracilis_M330_REF'
+	'M._palazonii_PhC149_TYPE'
+	'M._peruviana_CIPHAM004_TYPE'
+	'M._rufobrunnea_M14_REF'
+	'M._ulmaria_M70_REF'
+	'M._vulgaris_HT337_REF'
+	'Morchella_sp._Mes-10_HKAS59141_REF'
+	'Morchella_sp._Mes-12_M50_REF'
+	'Morchella_sp._Mes-13_M320_REF'
+	'Morchella_sp._Mes-15_YAASMNHSQ_REF'
+	'Morchella_sp._Mes-19_YAASM54_REF'
+	'Morchella_sp._Mes-20_YAASMCB1_REF'
+	'Morchella_sp._Mes-21_HKAS55920_REF'
+	'Morchella_sp._Mes-22_YAASM78_REF'
+	'Morchella_sp._Mes-23_HKAS56571_REF'
+	'Morchella_sp._Mes-25_YAASM15_REF'
+	'Morchella_sp._Mes-26_HKAS55913_REF'
+	'Morchella_sp._Mes-27_HKAS55897_REF'
+	'Morchella_sp._Mes-6_HMJAU5334_REF'
+	'Morchella_sp._Mes-X_HKAS56660_REF'
+	Seq100_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-42_translati
+	Seq101_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-43_translati
+	Seq104_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-46_translati
+	Seq109_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-54_translati
+	Seq110_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-55_translati
+	Seq113_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-58_translati
+	Seq114_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-59_translati
+	Seq115_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-61_translati
+	Seq116_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-62_translati
+	Seq117_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-64_translati
+	Seq119_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-67_translati
+	Seq120_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-68_translati
+	Seq121_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-69_translati
+	Seq122_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-70_translati
+	Seq123_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-71_translati
+	Seq124_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-72_translati
+	Seq126_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-74_translati
+	Seq127_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-75_translati
+	Seq128_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-76_translati
+	Seq129_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-77_translati
+	Seq130_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-78_translati
+	Seq131_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-79_translati
+	Seq62_organism_Morchella_esculenta_Morchella_esculenta_strain_M19-15_translatio
+	Seq63_organism_Morchella_esculenta_Morchella_esculenta_strain_M19-16_translatio
+	Seq64_organism_Morchella_esculenta_Morchella_esculenta_strain_M19-17_translatio
+	Seq65_organism_Morchella_esculenta_Morchella_esculenta_strain_M19-18_translatio
+	Seq67_organism_Morchella_esculenta_Morchella_esculenta_strain_M19-20_translatio
+	Seq77_organism_Morchella_esculenta_Morchella_esculenta_strain_M19-34_translatio
+	Seq79_organism_Morchella_esculenta_Morchella_esculenta_strain_M19-36_translatio
+	Seq81_organism_Morchella_esculenta_Morchella_esculenta_strain_M19-38_translatio
+	Seq83_organism_Morchella_esculenta_Morchella_esculenta_strain_M19-40_translatio
+	Seq91_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-26_translatio
+	Seq95_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-32_translatio
+	Seq96_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-36_translatio
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('M._rufobrunnea_M14_REF':0.093952,((((('M._esculenta_HKAS56676_REF':2.0E-6,'M._esculenta_HKAS59168_REF':0.001088)[&label=98]:0.002429,Seq95_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-32_translatio:0.018537)[&label=67]:0.001048,(((((((((((((((((((((((((((('M._esculenta_M19_REF':0.0,Seq113_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-58_translati:0.0):0.0,Seq79_organism_Morchella_esculenta_Morchella_esculenta_strain_M19-36_translatio:0.0):0.0,Seq122_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-70_translati:0.0):0.0,Seq110_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-55_translati:0.0):0.0,Seq123_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-71_translati:0.0):0.0,Seq129_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-77_translati:0.0):0.0,Seq126_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-74_translati:0.0):0.0,Seq96_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-36_translatio:0.0):0.0,Seq100_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-42_translati:0.0):0.0,Seq83_organism_Morchella_esculenta_Morchella_esculenta_strain_M19-40_translatio:0.0):0.0,Seq120_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-68_translati:0.0):0.0,Seq121_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-69_translati:0.0):0.0,Seq119_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-67_translati:0.0):0.0,Seq124_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-72_translati:0.0):0.0,Seq91_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-26_translatio:0.0):0.0,Seq115_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-61_translati:0.0):0.0,Seq109_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-54_translati:0.0):0.0,Seq127_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-75_translati:0.0):0.0,Seq117_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-64_translati:0.0):0.0,Seq130_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-78_translati:0.0):0.0,Seq128_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-76_translati:0.0):0.0,Seq81_organism_Morchella_esculenta_Morchella_esculenta_strain_M19-38_translatio:0.0):0.0,Seq101_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-43_translati:0.0):0.0,Seq114_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-59_translati:0.0):0.0,Seq116_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-62_translati:0.0):2.0E-6,Seq62_organism_Morchella_esculenta_Morchella_esculenta_strain_M19-15_translatio:2.0E-6)[&label=41]:2.0E-6,Seq67_organism_Morchella_esculenta_Morchella_esculenta_strain_M19-20_translatio:2.0E-6)[&label=49]:2.0E-6,((Seq65_organism_Morchella_esculenta_Morchella_esculenta_strain_M19-18_translatio:2.0E-6,Seq77_organism_Morchella_esculenta_Morchella_esculenta_strain_M19-34_translatio:2.0E-6)[&label=94]:0.001081,Seq131_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-79_translati:2.0E-6)[&label=74]:2.0E-6)[&label=46]:2.0E-6)[&label=48]:0.001098,(('M._fluvialis_YAASM86_REF':0.001081,'Morchella_sp._Mes-20_YAASMCB1_REF':0.003259)[&label=55]:2.0E-6,(((('M._fluvialis_HKAS59128_REF':2.0E-6,'M._fluvialis_M49_REF':2.0E-6)[&label=93]:0.001075,Seq63_organism_Morchella_esculenta_Morchella_esculenta_strain_M19-16_translatio:2.0E-6)[&label=36]:2.0E-6,Seq104_organism_Morchella_esculenta_Morchella_esculenta_strain_M21-46_translati:2.0E-6)[&label=28]:2.0E-6,Seq64_organism_Morchella_esculenta_Morchella_esculenta_strain_M19-17_translatio:2.0E-6)[&label=49]:2.0E-6)[&label=55]:0.002165)[&label=81]:0.004439,(((('M._gracilis_9483-TJB_TYPE':2.0E-6,'M._gracilis_M330_REF':2.0E-6)[&label=98]:0.003291,'M._peruviana_CIPHAM004_TYPE':0.003293)[&label=80]:0.001057,((('M._palazonii_PhC149_TYPE':0.002165,'Morchella_sp._Mes-13_M320_REF':0.004375)[&label=23]:2.0E-6,'Morchella_sp._Mes-15_YAASMNHSQ_REF':0.002166)[&label=11]:2.0E-6,('M._galilaea_YAASMDL2_REF':0.00108,'Morchella_sp._Mes-19_YAASM54_REF':0.00108)[&label=14]:2.0E-6)[&label=23]:2.0E-6)[&label=84]:0.002183,(((((('M._vulgaris_HT337_REF':0.001091,'Morchella_sp._Mes-6_HMJAU5334_REF':0.001091)[&label=38]:2.0E-6,'Morchella_sp._Mes-X_HKAS56660_REF':2.0E-6)[&label=43]:2.0E-6,'Morchella_sp._Mes-21_HKAS55920_REF':0.001091)[&label=100]:0.011391,'Morchella_sp._Mes-27_HKAS55897_REF':0.004574)[&label=71]:0.001169,(('Morchella_sp._Mes-12_M50_REF':2.0E-6,'Morchella_sp._Mes-22_YAASM78_REF':2.0E-6)[&label=53]:2.0E-6,'Morchella_sp._Mes-23_HKAS56571_REF':0.001088)[&label=92]:0.003024)[&label=54]:0.001106,'Morchella_sp._Mes-26_HKAS55913_REF':0.00192)[&label=65]:0.001364)[&label=71]:0.002127)[&label=62]:0.002323,(('M._ulmaria_M70_REF':0.001097,'Morchella_sp._Mes-25_YAASM15_REF':0.00327)[&label=88]:0.001071,'Morchella_sp._Mes-10_HKAS59141_REF':0.00328)[&label=83]:0.001029);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

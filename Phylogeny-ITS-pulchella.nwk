@@ -1,0 +1,163 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=61;
+	taxlabels
+	'GU551418.1_Morchella_sp._Mel-23_strain_M495_18S_ribosomal_RNA_gene_partial_sequ'
+	'GU551427.1_Morchella_sp._Mel-23_strain_M209_18S_ribosomal_RNA_gene_partial_sequ'
+	'HM056371.1_Morchella_sp._Mel-31_strain_HT_106_internal_transcribed_spacer_1_par'
+	'HM056393.1_Morchella_sp._Mel-31_strain_HT_202_internal_transcribed_spacer_1_par'
+	'HM056394.1_Morchella_sp._Mel-31_strain_HT_203_internal_transcribed_spacer_1_par'
+	'HM056396.1_Morchella_sp._Mel-31_strain_HT_212_internal_transcribed_spacer_1_par'
+	'JN085112.1_Morchella_sp._Mel-31_strain_HT354_18S_ribosomal_RNA_gene_partial_seq'
+	'JN085113.1_Morchella_sp._Mel-31_strain_HT396_18S_ribosomal_RNA_gene_partial_seq'
+	'JN085116.1_Morchella_sp._Mel-32_strain_HT428_18S_ribosomal_RNA_gene_partial_seq'
+	'JN085124.1_Morchella_sp._Mel-31_strain_HT472_18S_ribosomal_RNA_gene_partial_seq'
+	'JN085125.1_Morchella_sp._Mel-32_strain_HT477_18S_ribosomal_RNA_gene_partial_seq'
+	'JN085127.1_Morchella_sp._Mel-32_strain_HT479_18S_ribosomal_RNA_gene_partial_seq'
+	'JN085140.1_Morchella_sp._Mel-32_strain_HT106_internal_transcribed_spacer_1_part'
+	'JN085147.1_Morchella_septentrionalis_strain_HT9_18S_ribosomal_RNA_gene_partial'
+	'JN085153.1_Morchella_sp._Mel-23_strain_M495_18S_ribosomal_RNA_gene_partial_sequ'
+	'JN085160.1_Morchella_sp._Mel-23_strain_HT542_18S_ribosomal_RNA_gene_partial_seq'
+	'JQ321889.1_Morchella_sp._Mel-31_voucher_HKAS62881_18S_ribosomal_RNA_gene_partia'
+	'JQ321897.1_Morchella_sp._Mel-31_voucher_HKAS62882_18S_ribosomal_RNA_gene_partia'
+	'JQ618526.1_Morchella_sp._Mel-23_24_31_32_isolate_D115_18S_ribosomal_RNA_gene_pa'
+	'JQ618546.1_Morchella_sp._Mel-23_24_31_32_isolate_D161_18S_ribosomal_RNA_gene_pa'
+	'JQ618552.1_Morchella_sp._Mel-23_24_31_32_isolate_D168_18S_ribosomal_RNA_gene_pa'
+	'JQ618554.1_Morchella_sp._Mel-23_24_31_32_isolate_D170_18S_ribosomal_RNA_gene_pa'
+	'JQ618600.1_Morchella_sp._Mel-23_24_31_32_isolate_D310_18S_ribosomal_RNA_gene_pa'
+	'JQ618644.1_Morchella_sp._Mel-23_24_31_32_isolate_D431_18S_ribosomal_RNA_gene_pa'
+	'JQ618647.1_Morchella_sp._Mel-23_24_31_32_isolate_D435_18S_ribosomal_RNA_gene_pa'
+	'JQ618648.1_Morchella_sp._Mel-23_24_31_32_isolate_D436_18S_ribosomal_RNA_gene_pa'
+	'JQ618650.1_Morchella_sp._Mel-23_24_31_32_isolate_D438_18S_ribosomal_RNA_gene_pa'
+	'JQ618691.1_Morchella_sp._Mel-23_24_31_32_isolate_D484_18S_ribosomal_RNA_gene_pa'
+	'JQ618709.1_Morchella_sp._Mel-23_24_31_32_isolate_D505_18S_ribosomal_RNA_gene_pa'
+	'JQ618710.1_Morchella_sp._Mel-23_24_31_32_isolate_D506_18S_ribosomal_RNA_gene_pa'
+	'JQ618712.1_Morchella_sp._Mel-23_24_31_32_isolate_D510_18S_ribosomal_RNA_gene_pa'
+	'JQ618713.1_Morchella_sp._Mel-23_24_31_32_isolate_D511_18S_ribosomal_RNA_gene_pa'
+	'JQ618715.1_Morchella_sp._Mel-23_24_31_32_isolate_D513_18S_ribosomal_RNA_gene_pa'
+	'JQ618717.1_Morchella_sp._Mel-23_24_31_32_isolate_D515_18S_ribosomal_RNA_gene_pa'
+	'JQ618727.1_Morchella_sp._Mel-23_24_31_32_isolate_D534_18S_ribosomal_RNA_gene_pa'
+	'JQ618776.1_Morchella_sp._Mel-23_24_31_32_isolate_D94_18S_ribosomal_RNA_gene_par'
+	'JQ618778.1_Morchella_sp._Mel-23_24_31_32_isolate_D97_18S_ribosomal_RNA_gene_par'
+	'JQ723064.1_Morchella_septentrionalis_strain_M9_internal_transcribed_spacer_1_pa'
+	'JQ723124.1_Morchella_rufobrunnea_strain_M14_internal_transcribed_spacer_1_parti'
+	'KM485949.1_Morchella_sp._Mel-23_strain_YAAS13002_18S_ribosomal_RNA_gene_partial'
+	'KM485956.1_Morchella_sp._Mel-23_strain_YAAS13001_18S_ribosomal_RNA_gene_partial'
+	'KM587941.1_Morchella_septentrionalis_voucher_LIP_PhC121_internal_transcribed_sp'
+	'KM587942.1_Morchella_septentrionalis_voucher_LIP_PhC123_internal_transcribed_sp'
+	'KM587997.1_Morchella_pulchella_voucher_LIP_PhC56_internal_transcribed_spacer_1'
+	'M._importuna_M700_REF'
+	M21-20
+	M21-90
+	M21-91
+	'MG589669.1_Morchella_pulchella_strain_YAASM5_18S_ribosomal_RNA_gene_partial_seq'
+	'MG589672.1_Morchella_pulchella_strain_YAASM18_18S_ribosomal_RNA_gene_partial_se'
+	'MG589674.1_Morchella_pulchella_strain_YAASM30_18S_ribosomal_RNA_gene_partial_se'
+	'MK629434.1_Morchella_conifericola_small_subunit_ribosomal_RNA_gene_partial_sequ'
+	'MK965452.1_Morchella_pulchella_strain_M192_internal_transcribed_spacer_1_partia'
+	'MT373943.1_Morchella_septentrionalis_voucher_MIN-890882_internal_transcribed_sp'
+	'MT373944.1_Morchella_septentrionalis_voucher_MIN-896014_internal_transcribed_sp'
+	'MZ995206.1_Morchella_pulchella_voucher_iNat48409941_internal_transcribed_spacer'
+	'MZ995213.1_Morchella_pulchella_voucher_iNat46129997_small_subunit_ribosomal_RNA'
+	'MZ995216.1_Morchella_pulchella_voucher_iNat46132276_small_subunit_ribosomal_RNA'
+	'MZ995217.1_Morchella_pulchella_voucher_iNat46293272_small_subunit_ribosomal_RNA'
+	'MZ995218.1_Morchella_pulchella_voucher_iNat46292862_internal_transcribed_spacer'
+	'ON086285.1_Morchella_pulchella_voucher_F-1030554_small_subunit_ribosomal_RNA_ge'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('JQ723124.1_Morchella_rufobrunnea_strain_M14_internal_transcribed_spacer_1_parti':0.408525,((((((('JN085112.1_Morchella_sp._Mel-31_strain_HT354_18S_ribosomal_RNA_gene_partial_seq':0.0,'JN085125.1_Morchella_sp._Mel-32_strain_HT477_18S_ribosomal_RNA_gene_partial_seq':0.0):0.0,'JN085116.1_Morchella_sp._Mel-32_strain_HT428_18S_ribosomal_RNA_gene_partial_seq':0.0):0.0,'ON086285.1_Morchella_pulchella_voucher_F-1030554_small_subunit_ribosomal_RNA_ge':0.0):2.0E-6,'JN085113.1_Morchella_sp._Mel-31_strain_HT396_18S_ribosomal_RNA_gene_partial_seq':2.0E-6)[&label=60]:2.0E-6,('HM056396.1_Morchella_sp._Mel-31_strain_HT_212_internal_transcribed_spacer_1_par':2.0E-6,'M._importuna_M700_REF':0.077767)[&label=48]:3.0E-6)[&label=50]:0.001542,(((((((((((((((((((((((((((((((((((((((('JN085124.1_Morchella_sp._Mel-31_strain_HT472_18S_ribosomal_RNA_gene_partial_seq':0.0,'JQ618713.1_Morchella_sp._Mel-23_24_31_32_isolate_D511_18S_ribosomal_RNA_gene_pa':0.0):0.0,'JQ618552.1_Morchella_sp._Mel-23_24_31_32_isolate_D168_18S_ribosomal_RNA_gene_pa':0.0):0.0,'JQ618600.1_Morchella_sp._Mel-23_24_31_32_isolate_D310_18S_ribosomal_RNA_gene_pa':0.0):0.0,'JQ618554.1_Morchella_sp._Mel-23_24_31_32_isolate_D170_18S_ribosomal_RNA_gene_pa':0.0):0.0,'JQ618710.1_Morchella_sp._Mel-23_24_31_32_isolate_D506_18S_ribosomal_RNA_gene_pa':0.0):0.0,'JQ321897.1_Morchella_sp._Mel-31_voucher_HKAS62882_18S_ribosomal_RNA_gene_partia':0.0):0.0,'MK965452.1_Morchella_pulchella_strain_M192_internal_transcribed_spacer_1_partia':0.0):0.0,'JN085147.1_Morchella_septentrionalis_strain_HT9_18S_ribosomal_RNA_gene_partial':0.0):0.0,'JQ618709.1_Morchella_sp._Mel-23_24_31_32_isolate_D505_18S_ribosomal_RNA_gene_pa':0.0):0.0,'JQ723064.1_Morchella_septentrionalis_strain_M9_internal_transcribed_spacer_1_pa':0.0):0.0,'MG589672.1_Morchella_pulchella_strain_YAASM18_18S_ribosomal_RNA_gene_partial_se':0.0):0.0,'MZ995206.1_Morchella_pulchella_voucher_iNat48409941_internal_transcribed_spacer':0.0):0.0,'JQ618715.1_Morchella_sp._Mel-23_24_31_32_isolate_D513_18S_ribosomal_RNA_gene_pa':0.0):0.0,'JQ618648.1_Morchella_sp._Mel-23_24_31_32_isolate_D436_18S_ribosomal_RNA_gene_pa':0.0):0.0,'JQ618546.1_Morchella_sp._Mel-23_24_31_32_isolate_D161_18S_ribosomal_RNA_gene_pa':0.0):0.0,'MT373944.1_Morchella_septentrionalis_voucher_MIN-896014_internal_transcribed_sp':0.0):0.0,'KM587942.1_Morchella_septentrionalis_voucher_LIP_PhC123_internal_transcribed_sp':0.0):0.0,'GU551418.1_Morchella_sp._Mel-23_strain_M495_18S_ribosomal_RNA_gene_partial_sequ':0.0):0.0,'JQ618712.1_Morchella_sp._Mel-23_24_31_32_isolate_D510_18S_ribosomal_RNA_gene_pa':0.0):0.0,'JQ618776.1_Morchella_sp._Mel-23_24_31_32_isolate_D94_18S_ribosomal_RNA_gene_par':0.0):0.0,'JN085127.1_Morchella_sp._Mel-32_strain_HT479_18S_ribosomal_RNA_gene_partial_seq':0.0):0.0,'JN085160.1_Morchella_sp._Mel-23_strain_HT542_18S_ribosomal_RNA_gene_partial_seq':0.0):0.0,'MZ995217.1_Morchella_pulchella_voucher_iNat46293272_small_subunit_ribosomal_RNA':0.0):0.0,M21-91:0.0):0.0,'KM485949.1_Morchella_sp._Mel-23_strain_YAAS13002_18S_ribosomal_RNA_gene_partial':0.0):0.0,'JQ618717.1_Morchella_sp._Mel-23_24_31_32_isolate_D515_18S_ribosomal_RNA_gene_pa':0.0):0.0,'KM587997.1_Morchella_pulchella_voucher_LIP_PhC56_internal_transcribed_spacer_1':0.0):0.0,M21-90:0.0):0.0,'MG589674.1_Morchella_pulchella_strain_YAASM30_18S_ribosomal_RNA_gene_partial_se':0.0):0.0,'JQ618727.1_Morchella_sp._Mel-23_24_31_32_isolate_D534_18S_ribosomal_RNA_gene_pa':0.0):0.0,'MZ995218.1_Morchella_pulchella_voucher_iNat46292862_internal_transcribed_spacer':0.0):0.0,'GU551427.1_Morchella_sp._Mel-23_strain_M209_18S_ribosomal_RNA_gene_partial_sequ':0.0):0.0,M21-20:0.0):0.0,'JQ618526.1_Morchella_sp._Mel-23_24_31_32_isolate_D115_18S_ribosomal_RNA_gene_pa':0.0):0.0,'JN085153.1_Morchella_sp._Mel-23_strain_M495_18S_ribosomal_RNA_gene_partial_sequ':0.0):0.0,'MZ995213.1_Morchella_pulchella_voucher_iNat46129997_small_subunit_ribosomal_RNA':0.0):2.0E-6,'MT373943.1_Morchella_septentrionalis_voucher_MIN-890882_internal_transcribed_sp':2.0E-6)[&label=14]:2.0E-6,((((('HM056371.1_Morchella_sp._Mel-31_strain_HT_106_internal_transcribed_spacer_1_par':0.0,'JN085140.1_Morchella_sp._Mel-32_strain_HT106_internal_transcribed_spacer_1_part':0.0):0.0,'HM056394.1_Morchella_sp._Mel-31_strain_HT_203_internal_transcribed_spacer_1_par':0.0):2.0E-6,'HM056393.1_Morchella_sp._Mel-31_strain_HT_202_internal_transcribed_spacer_1_par':2.0E-6)[&label=79]:2.0E-6,'MK629434.1_Morchella_conifericola_small_subunit_ribosomal_RNA_gene_partial_sequ':2.0E-6)[&label=63]:2.0E-6,'KM485956.1_Morchella_sp._Mel-23_strain_YAAS13001_18S_ribosomal_RNA_gene_partial':2.0E-6)[&label=21]:2.0E-6)[&label=8]:2.0E-6,('MZ995216.1_Morchella_pulchella_voucher_iNat46132276_small_subunit_ribosomal_RNA':2.0E-6,'KM587941.1_Morchella_septentrionalis_voucher_LIP_PhC121_internal_transcribed_sp':2.0E-6)[&label=16]:2.0E-6)[&label=24]:2.0E-6,'JQ618650.1_Morchella_sp._Mel-23_24_31_32_isolate_D438_18S_ribosomal_RNA_gene_pa':0.001542)[&label=45]:2.0E-6)[&label=45]:0.001538,'JQ321889.1_Morchella_sp._Mel-31_voucher_HKAS62881_18S_ribosomal_RNA_gene_partia':2.0E-6)[&label=48]:0.001541,(((('MG589669.1_Morchella_pulchella_strain_YAASM5_18S_ribosomal_RNA_gene_partial_seq':0.0,'JQ618778.1_Morchella_sp._Mel-23_24_31_32_isolate_D97_18S_ribosomal_RNA_gene_par':0.0):0.0,'JQ618691.1_Morchella_sp._Mel-23_24_31_32_isolate_D484_18S_ribosomal_RNA_gene_pa':0.0):2.0E-6,'JQ618644.1_Morchella_sp._Mel-23_24_31_32_isolate_D431_18S_ribosomal_RNA_gene_pa':2.0E-6)[&label=71]:2.0E-6,'JQ618647.1_Morchella_sp._Mel-23_24_31_32_isolate_D435_18S_ribosomal_RNA_gene_pa':0.001538)[&label=45]:2.0E-6);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
